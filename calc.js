@@ -4,6 +4,7 @@
 * Date written: 2019
 * Purpose: Used with calculator.html and style.css to functon as a simple calculator
 *************************************************************************************/
+//declaring variables
 
 var disp = document.getElementById("disp");
 var decPressed = 0;
