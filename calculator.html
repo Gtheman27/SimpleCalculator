@@ -1,0 +1,50 @@
+<!-- page name: calculator.html 
+  Written by: M Wilson
+  Date written: 2019
+
+This is a simple calculator, that only functions with buttons and not keypresses as yet
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>A simple calculator </title>
+    <!-- link the style sheet style.cc -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- function displayCalc() called when user hovers over the button -->
+    <input type="button" onmouseover='displayCalc()' onclick='displayCalc()' value="Hide calculator" id="switch" />
+    <div id="show">
+        <div class='calc'>
+            <div id='disp'></div>
+            <button id='back1'>&#8592;</button>
+            <button id='+/-'>+/-</button>
+            <button id='%'>%</button>
+            <button class="btn oper" id='division1' value="/">&#247</button>
+            <button class="btn num" id='7'>7</button>
+            <button class="btn num" id='8'>8</button>
+            <button class="btn num" id='9'>9</button>
+            <button class="btn oper" id='mult'>x</button>
+            <button class="btn num" id='4'>4</button>
+            <button class="btn num" id='5'>5</button>
+            <button class="btn num" id='6'>6</button>
+            <button class="btn oper" id='subtr'>-</button>
+            <button class="btn num" id='1'>1</button>
+            <button class="btn num" id='2'>2</button>
+            <button class="btn num" id='3'>3</button>
+            <button class="btn oper" id='add'>+</button>
+            <button id='clear'>AC</button>
+            <button class="btn num" id='0'>0</button>
+            <button class="btn num" id='00'>00</button>
+            <button class="btn oper" id='dec'>.</button>
+            <button id='ans'>=</button>
+        </div>
+        <script src="calc.js"></script>
+    </div>
+</body>
+<html>
